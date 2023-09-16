@@ -1,16 +1,10 @@
 // Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const shapes = require('./lib/shapes.js');
+const Shape = require('./lib/shapes.js');
 
 // An array of questions for user input
 const questions = [
-    {  
-        type: 'list',
-        name: 'shape',
-        message: 'Choose a shape for your logo: ',
-        choices: ['Square', 'Circle', 'Triangle'],
-    },
     {   
         type: 'input',
         name: 'text',
@@ -28,6 +22,12 @@ const questions = [
             const valid = value.length > 0;
             return valid || 'Please enter a value for text color.';
         }
+    },
+    {  
+        type: 'list',
+        name: 'shape',
+        message: 'Choose a shape for your logo: ',
+        choices: ['Square', 'Circle', 'Triangle'],
     },
     {   
         type: 'input',
@@ -50,8 +50,9 @@ function writeToFile(fileName, data) {
 // A function to initialize app
 function init() {
     inquirer.prompt(questions).then((data) => {
-        const dataShapes = shapes(data);
-        writeToFile('logo.svg', dataShapes);
+        const shape = new Shape(data.text, data.text_color, data.shape, data.shape_color);
+        const logo = shape.createLogo();
+        writeToFile('logo.svg', logo);
     })
     .catch((err) => console.error('Something went wrong: Error ', err));
 };
