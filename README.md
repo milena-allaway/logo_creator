@@ -16,10 +16,25 @@ An app that creates a logo based on user input and saves it as an SVG file.
 
 
 ## Installation
+install dependencies
+```npm init```
+```npm i inquirer@8.2.4```
+```npm i --save-dev jest@29.4```
 
 ## Usage
 
 ## Credits
+https://www.npmjs.com/package/inquirer/v/8.2.4
+https://www.npmjs.com/package/jest
+https://en.wikipedia.org/wiki/SVG
+https://www.w3schools.com/graphics/svg_intro.asp
+https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial
+https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes
+https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Texts
+https://marketplace.visualstudio.com/items?itemName=jock.svg
+
+
+
 
 ## License
   This project is licensed under the MIT License. 

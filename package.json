@@ -1,0 +1,38 @@
+{
+  "name": "logo_creator",
+  "version": "1.0.0",
+  "description": "This is an app to create a simple svg logo",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milena-allaway/logo_creator.git"
+  },
+  "keywords": [
+    "svg",
+    "logo",
+    "node",
+    "object",
+    "oriented",
+    "programming"
+  ],
+  "author": "Milena Allaway",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/milena-allaway/logo_creator/issues"
+  },
+  "homepage": "https://github.com/milena-allaway/logo_creator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "29.4",
+    "nodemon": "^3.0.1"
+  }
+}
