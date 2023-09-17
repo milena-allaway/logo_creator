@@ -40,14 +40,14 @@ const questions = [
     },
 ];
 
-//A function to create logo file
+//A function to create logo file, called in init(), if no error, console.log success message
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
-        err ? console.error('Error creating logo: ', err) : console.log('logo.svg Created!')
+        err ? console.error('Error creating logo: ', err) : console.log('Generated logo.svg!')
     );
 };
 
-// A function to initialize app
+// A function to initialize app and make logo, if no error, call writeToFile(), if error, console.log error
 function init() {
     inquirer.prompt(questions).then((data) => {
         const shape = new Shape(data.text, data.text_color, data.shape, data.shape_color);
@@ -57,5 +57,5 @@ function init() {
     .catch((err) => console.error('Something went wrong: Error ', err));
 };
 
-// Function call to initialize app
+// Function call to initialize app, create logo
 init();
