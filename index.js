@@ -52,7 +52,7 @@ function init() {
     inquirer.prompt(questions).then((data) => {
         const shape = new Shape(data.text, data.text_color, data.shape, data.shape_color);
         const logo = shape.render();
-        writeToFile('logo.svg', logo );
+        writeToFile('logo.svg', logo);
     })
     .catch((err) => console.error('Something went wrong: Error ', err));
 };
