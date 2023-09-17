@@ -29,7 +29,8 @@
   },
   "homepage": "https://github.com/milena-allaway/logo_creator#readme",
   "dependencies": {
-    "inquirer": "^8.2.4"
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.6"
   },
   "devDependencies": {
     "jest": "29.4",

@@ -1,7 +1,7 @@
 // Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const Shape = require('./lib/shapes.js');
+const { Shape, Circle, Square, Triangle } = require('./lib/shapes.js');
 
 // An array of questions for user input
 const questions = [
@@ -51,8 +51,8 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then((data) => {
         const shape = new Shape(data.text, data.text_color, data.shape, data.shape_color);
-        const logo = shape.createLogo();
-        writeToFile('logo.svg', logo);
+        const logo = shape.render();
+        writeToFile('logo.svg', logo );
     })
     .catch((err) => console.error('Something went wrong: Error ', err));
 };
