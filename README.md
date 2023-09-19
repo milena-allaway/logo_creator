@@ -28,7 +28,7 @@ Also recommended to install the [SVG Preview extension](https://marketplace.visu
 After installing dependencies, open the index.js file in the terminal. Then run the app by writing the following command in the terminal:
 ```node index.js```
 Then answer the questions in the command line. The logo will be generated as an SVG file. Open the SVG file in the browser to view the logo. Or, if using VS Code, install the SVG Preview extension to view the logo in the editor.
-[Watch the run-through video]()
+[Watch the run-through video](https://drive.google.com/file/d/1Copwn2xwg8rBMnJ7cRYPLpnfV7Tr6O7Q/view)
 
 ## Credits
 - Inquirer NPM package documentation: 
