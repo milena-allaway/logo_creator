@@ -32,17 +32,17 @@ Then answer the questions in the command line. The logo will be generated as an 
 
 ## Credits
 - Inquirer NPM package documentation: 
-  -https://www.npmjs.com/package/inquirer/v/8.2.4
+  - https://www.npmjs.com/package/inquirer/v/8.2.4
 - Jest NPM package documentation: 
-  -https://www.npmjs.com/package/jest
+  - https://www.npmjs.com/package/jest
 - SVG resources and documentation:
-  -https://en.wikipedia.org/wiki/SVG
-  -https://www.w3schools.com/graphics/svg_intro.asp
-  -https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial
-  -https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes
-  -https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Texts
+  - https://en.wikipedia.org/wiki/SVG
+  - https://www.w3schools.com/graphics/svg_intro.asp
+  - https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial
+  - https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes
+  - https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Texts
 - SVG Preview extension for VS Code: 
-  -https://marketplace.visualstudio.com/items?itemName=jock.svg
+  - https://marketplace.visualstudio.com/items?itemName=jock.svg
 - Example code for testing was used from the BCS Module 10 challenge acceptance criteria which helped me get started with testing and write code for the app's functions. 
 - The BCS module 9 and 10 excercises were also referenced for help with writing the class constructors, methods, and tests.
 - I ended up using Chat GPT to help debug an error in the way I had constructed the class parameters for the getShape method, which was not displaying the shape color.
