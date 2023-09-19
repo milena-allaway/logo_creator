@@ -2,10 +2,11 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-As a busy student/developer, I want to be able to create a logo for my projects quickly and easily, so that I don't have to pay a graphic designer. This application allows the user to create a logo by answering a few questions in the command line, using the Inquirer NPM package. The logo is then generated as an SVG file, which can be opened in the browser. The user can choose the logo's shape, background color, text color, and text content. The logo can be used for websites, apps, and other projects.
-During the making of this app I learned about SVG, which is a vector image format that can be scaled to any size without losing quality. I found it difficult to navigate the SVG documentation, but was able to find the information I needed to create a simple logo.
-I also learned about the Jest testing framework, which I used to test the functions in this app. The sample code provided in the BCS acceptance criteria was very helpful in getting started with testing.
+  As a busy student/developer, I want to be able to create a logo for my projects quickly and easily, so that I don't have to pay a graphic designer. This application allows the user to create a logo by answering a few questions in the command line, using the Inquirer NPM package. The logo is then generated as an SVG file, which can be opened in the browser. The user can choose the logo's shape, background color, text color, and text content. The logo can be used for websites, apps, and other projects.
+  During the making of this app I learned about SVG, which is a vector image format that can be scaled to any size without losing quality. I found it difficult to navigate the SVG documentation, but was able to find the information I needed to create a simple logo.
+  I also learned about the Jest testing framework, which I used to test the functions in this app. The sample code provided in the BCS acceptance criteria was very helpful in getting started with testing.
 I still find it difficult to write the class constructors and methods, and I am not sure if I am doing it correctly, but I am happy that I was able to get the app to work as intended and create a logo.
+  I added the validation for the logo values within the Inquirer questions, as opposed to in the callback function when fetching the data from the Inquirer answer. I did this to allow for a better user experience. If there are any invalid inputs, they can be corrected right away instead of having to wait until all the questions are answered, forcing the user to re-answer all the questions again.
 
 
 ## Table of Contents
